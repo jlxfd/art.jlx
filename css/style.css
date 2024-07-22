@@ -75,6 +75,9 @@ main .wrapper .illus {
     border-radius: 2rem;
     margin: 1.2rem;
     flex-wrap: nowrap;
+    /* flex-grow: 4; */
+    /* flex-basis: 100%; */
+    flex: none;
 }
 
 .my-work h2 {
