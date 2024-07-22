@@ -18,7 +18,7 @@ main,
 }
 
 header {
-    padding: 2rem 1.5rem;
+    padding: 2.75rem 1.5rem 2rem 1.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -29,13 +29,34 @@ header {
     justify-content: center;
 }
 
+main .wrapper {
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
 main .wrapper > section {
     color: #FFFDF8;
     display: block;
-    max-width: 33.375rem;
-    max-height: 20rem;
+    width: 75%;
+    height: 10.625rem;
     background: #F9D578;
     justify-content: space-between;
+    padding: 1.56rem 2.25rem;
+}
+
+main .wrapper .gd {
+    border-radius: 5rem 10rem;
+}
+
+main .wrapper .illus {
+    background: #5356A9;
+    align-self: flex-end;
+    text-align: right;
+    border-radius: 10rem 5rem;
+    position: relative;
+    bottom: 4rem;
 }
 
 .about {
@@ -124,7 +145,8 @@ main p,
 }
 
 p {
-    line-height: 1.2rem;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
 }
 
 h2 {
