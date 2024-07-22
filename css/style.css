@@ -70,7 +70,7 @@ main .wrapper .illus {
     border-radius: 50%;
 }
 
-.about button {
+.about a {
     display: block;
     margin: 0 auto;
 }
@@ -145,7 +145,8 @@ h1,
 .about h3,
 .about p,
 main p,
-.my-work h2 {
+.my-work h2,
+a {
     text-align: center;
 }
 
@@ -174,16 +175,18 @@ main h3,
 
 /* BUTTONS */
 
-button {
+a {
+    display: block;
     align-self: center;
     color: #FFFDF8;
     font-weight: 700;
     padding: .5rem 1.8rem;
     max-height: 2.5rem;
-    max-width: 16rem;
+    max-width: 12rem;
     background: #5356A9;
     border: none;
     border-radius: 2rem;
+    text-decoration: none;
 }
 
 .pink {
