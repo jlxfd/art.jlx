@@ -1,0 +1,163 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Palanquin", Arial, Helvetica, sans-serif;
+    background: #FFFDF8;
+}
+
+/* LAYOUT */
+
+main, 
+.about,
+.my-work {
+    padding: 0 1.5rem;
+}
+
+header {
+    padding: 2rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    margin-bottom: 5rem;
+    justify-content: center;
+}
+
+main .wrapper > section {
+    color: #FFFDF8;
+    display: block;
+    max-width: 33.375rem;
+    max-height: 20rem;
+    background: #F9D578;
+    justify-content: space-between;
+}
+
+.about {
+    padding-bottom: 2.375rem;
+}
+
+.about button {
+    display: block;
+    margin: 0 auto;
+}
+
+.my-work .wrapper > div {
+    width: 310px;
+    height: 310px;
+    background: #5356A9;
+    border-radius: 2rem;
+    margin: 1.2rem;
+    flex-wrap: nowrap;
+}
+
+.my-work h2 {
+    margin-bottom: 1.15rem;
+}
+
+.free-call {
+    padding: 3rem 1.5rem;
+    background: #5356A9;
+    color: #FFFDF8;
+}
+
+.free-call h3,
+.free-call p {
+    margin-bottom: 1.375rem;
+}
+
+footer {
+    display: flex;
+    padding: 2rem 1.5rem;
+    justify-content: space-between;
+}
+
+footer .icons {
+    align-self: center;
+    display: flex;
+    gap: 2.25rem;
+}
+footer i {
+    font-size: 2.65rem;
+}
+
+footer .fa-instagram {
+    color: #D26B90;
+}
+
+footer .fa-square-facebook {
+    color: #5356A9;
+}
+
+
+/* TYPOGRAPHY */
+
+h1, 
+h2,
+h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.986rem;
+    line-height: 48px;  
+    margin-bottom: 2rem;
+}
+
+h1,
+.about h3,
+.about p,
+main p,
+.my-work h2 {
+    text-align: center;
+}
+
+main p,
+.about p {
+    margin-bottom: 2.375rem;
+}
+
+p {
+    line-height: 1.2rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+main h3,
+.free-call h3  {
+    font-size: 1.7rem;
+}
+
+/* BUTTONS */
+
+button {
+    align-self: center;
+    color: #FFFDF8;
+    font-weight: 700;
+    padding: .5rem 1.8rem;
+    max-height: 2.5rem;
+    max-width: 16rem;
+    background: #5356A9;
+    border: none;
+    border-radius: 2rem;
+}
+
+.pink {
+    background: #D26B90;
+}
+
+.footer-button {
+    display: none;
+}
