@@ -63,6 +63,13 @@ main .wrapper .illus {
     padding-bottom: 2.375rem;
 }
 
+.about img {
+    display:block;
+    width: clamp(12rem, 50%, 20rem);
+    margin: 2rem auto 1.75rem auto;
+    border-radius: 50%;
+}
+
 .about button {
     display: block;
     margin: 0 auto;
