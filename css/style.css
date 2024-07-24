@@ -7,6 +7,7 @@
 body {
     font-family: "Palanquin", Arial, Helvetica, sans-serif;
     background: #FFFDF8;
+    margin: 0 auto;
 }
 
 /* LAYOUT */
@@ -65,7 +66,7 @@ main .wrapper .illus {
 
 .about img {
     display: block;
-    width: clamp(12rem, 50%, 20rem);
+    width: clamp(12rem, 50%, 15rem);
     margin: 2rem auto 1.75rem auto;
     border-radius: 50%;
 }
@@ -80,10 +81,15 @@ main .wrapper .illus {
     height: 310px;
     background: #5356A9;
     border-radius: 2rem;
-    margin: 1.2rem;
-    flex-wrap: nowrap;
+    margin: 1.2rem .5rem;
+    gap: 1rem;
+    /* flex-wrap: nowrap; */
     /* flex-grow: 4; */
     /* flex-basis: 100%; */
+    /* flex: none; */
+}
+
+#first-work {
     flex: none;
 }
 
@@ -195,4 +201,86 @@ a {
 
 .footer-button {
     display: none;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    main, 
+    .about,
+    .my-work {
+        padding: 0 4.375rem;
+    }
+
+    header {
+        padding: 2.75rem 4.375rem 2rem 4.375rem;
+    }
+
+    main h3 {
+        font-size: 2.488rem;
+    }
+
+    h1,
+    .about h3 {
+        padding: 0 2rem;
+    }
+
+    main p {
+        padding: 0 2rem;
+    }
+
+    main .wrapper > section {
+        height: 16rem;
+        width: 70%;
+        padding-top: 2.5rem;
+    }
+
+    main .wrapper .illus {
+        bottom: 10rem;
+        margin-bottom: -5rem;
+        padding-right: 3.938rem;
+    }
+
+    main .wrapper .gd {
+        padding-left: 3.938rem;
+    }
+
+    .about {
+        padding-bottom: 2.375rem;
+    }
+
+    .about .about-wrapper {
+        display: flex;
+    }
+
+    .about .details {
+        align-self: center;
+        padding: 0 0 0 2rem;
+    }
+
+    .about a {
+        margin: 0;
+    }
+
+    .about p {
+        text-align: left;
+    }
+
+    .free-call {
+        padding: 3rem 4.375rem;
+        text-align: center;
+    }
+    
+    .free-call a {
+        margin: 0 auto;
+    }
+    
+    .footer-button {
+        display: block;
+    }
+
+    footer {
+        padding: 2rem 4.375rem;
+    }
 }
