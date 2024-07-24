@@ -64,7 +64,7 @@ main .wrapper .illus {
 }
 
 .about img {
-    display:block;
+    display: block;
     width: clamp(12rem, 50%, 20rem);
     margin: 2rem auto 1.75rem auto;
     border-radius: 50%;
