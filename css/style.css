@@ -186,8 +186,7 @@ a {
     align-self: center;
     color: #FFFDF8;
     font-weight: 700;
-    padding: .5rem 1.8rem;
-    max-height: 2.5rem;
+    padding: 1rem 1.8rem;
     max-width: 12rem;
     background: #5356A9;
     border: none;
@@ -207,6 +206,11 @@ a {
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
+    a {
+        font-size: 1.2rem;
+        max-width: 14rem;
+    }
+     
     main, 
     .about,
     .my-work {
