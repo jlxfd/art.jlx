@@ -32,7 +32,6 @@ header {
 
 main .wrapper {
     width: 100%;
-    height: max-content;
     flex-direction: column;
     margin-bottom: 0;
 }
@@ -112,6 +111,7 @@ footer {
     display: flex;
     padding: 2rem 1.5rem;
     justify-content: space-between;
+    align-items: center;
 }
 
 footer .icons {
@@ -285,6 +285,101 @@ a {
     }
 
     footer {
-        padding: 2rem 4.375rem;
+        padding: 8rem 4.375rem;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    header,
+    footer {
+        max-width: 84.475rem;
+        margin: 0 auto;
+    }
+         
+    main h3 {
+        font-size: 2.488rem;
+    }
+
+    main p {
+        max-width: 60rem;
+        margin: 0 auto 2.375rem auto;
+    }
+
+    main .wrapper {
+        padding: 0 6.875rem;
+        flex-direction: row;
+        margin-bottom: 5rem;
+        gap: 1.25rem;
+    }
+
+    main .wrapper > section {
+        max-width: 32rem;
+    }
+
+    main .wrapper .illus {
+        position: static;
+        align-self: flex-start;
+    }
+
+    main .wrapper .gd {
+        padding-left: 3.938rem;
+    }
+
+    .about {
+        padding-bottom: 2.375rem;
+    }
+
+    .about .about-wrapper {
+        display: flex;
+        max-width: 56.875rem;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+
+    .about .details {
+        align-self: center;
+        padding: 0 0 0 2rem;
+    }
+
+    .about a {
+        margin: 0;
+    }
+
+    .about p {
+        text-align: left;
+    }
+
+    .free-call {
+        padding: 3rem 4.375rem;
+        margin: 0 auto;
+        max-width: 80rem;
+        text-align: left;
+        border-radius: 2.625rem;
+    }
+
+    .free-call h3 {
+        font-size: 2.074rem;
+    }
+
+    .free-call p {
+        width: 39.25rem;
+    }
+
+    .free-call .details {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .free-call a {
+        margin: 0;
+    }
+    
+    .footer-button {
+        display: block;
+    }
+
+    footer {
+        padding: 4rem 2.375rem;
     }
 }
